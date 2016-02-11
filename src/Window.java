@@ -44,7 +44,7 @@ class Window extends JFrame {
 		c.start();
 
 		// Links the window to the keyboardlistenner.
-		this.addKeyListener(new KeyboardListener());
+		this.addKeyListener(new SnakeController());
 
 		// To do : handle multiplayers .. The above works, test it and see what
 		// happens
